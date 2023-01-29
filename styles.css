@@ -1,0 +1,64 @@
+body {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    padding: 30px; 
+  }
+  /*Основная рамка*/
+  .allcard {
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    background-color: darkgray;
+
+  }
+  /*Основная рамка карточки*/
+  .card_picture {
+    /*border: 1px solid rgb(116, 58, 58);*/
+    width: 330px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    border-bottom: 1px solid black;
+  }
+  /*Оформление блока с картинками*/
+  .card_main-picture {
+    order: 1px solid rgb(116, 58, 58);
+    width: 180px;
+    height: 140px;
+    background-color: rgb(63, 96, 158);
+    margin-right: 25px;
+  }
+  /*Основная картинка*/
+  .card_mini-picture1 {
+    order: 1px solid rgb(34, 226, 44);
+    width: 60px;
+    height: 50px;
+    background-color: rgb(35, 155, 65);
+    margin-right: 5px;
+
+  }
+  /*Мини картинка 1*/
+  .card_mini-picture2 {
+    order: 1px solid rgb(226, 34, 216);
+    width: 60px;
+    height: 50px;
+    background-color: rgb(221, 30, 221);
+    
+  }
+  /*Мини картинка 2*/
+  .card_main {
+    /*border: 1px solid rgb(116, 58, 58);*/
+    width: 330px;
+    height: 180px;
+    margin-top: 5px;
+    font-size: 85%;
+  }
+  /*Оформление блока с текстом*/
+  .card_main-price-old {
+    color: rgba(0,0,0,0.5);
+  }
+  /*Старая цена*/
